@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game suit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1> GAME SUIT</h1>
+        <p>Pilih permainan yang ingin dimainkan</p>
+        
+        <div class="pilihan">
+            <button onclick="pilihSuit(1)" class="btn btn-bgk">Batu Gunting Kertas</button>
+            <button onclick="pilihSuit(2)" class="btn btn-gos">Gajah Orang Semut</button>
+            <button onclick="pilihSuit(3)" class="btn btn-jari">Suit Jari</button>
+        </div>
+
+        <div id="areaInput" class="area-input" style="display: none;"></div>
+        <div id="hasil" class="hasil"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
